@@ -1,20 +1,92 @@
 Program: Program
-  Function: pohuy
-    Type: int
+  Function: sqrt
+    Type: double
+    FuncArg: a
+      Type: double
     Block: Block
+      If: If
+        Binary: <=
+          Identifier: a
+          Number: 0
+        Block: Block
+          Return: Return
+            Identifier: a
+      VarDeclList: VarDeclList
+        Type: double
+        VarDecl: l
+          Number: 0
+      VarDeclList: VarDeclList
+        Type: double
+        VarDecl: r
+          Identifier: a
+      While: While
+        Binary: >
+          Binary: -
+            Identifier: r
+            Identifier: l
+          Number: 0.001
+        Block: Block
+          VarDeclList: VarDeclList
+            Type: double
+            VarDecl: m
+              Binary: /
+                Binary: +
+                  Identifier: l
+                  Identifier: r
+                Number: 2
+          If: If
+            Binary: >=
+              Binary: *
+                Identifier: m
+                Identifier: m
+              Identifier: a
+            Block: Block
+              ExprStmt: ExprStmt
+                Assign: =
+                  Identifier: r
+                  Identifier: m
+            Block: Block
+              ExprStmt: ExprStmt
+                Assign: =
+                  Identifier: l
+                  Identifier: m
       Return: Return
-        Number: 2
-      ExprStmt: ExprStmt
-        Call: Call
-          Identifier: printStr
-          String: GOVNO
+        Identifier: r
   Function: main
     Type: int
     Block: Block
+      VarDeclList: VarDeclList
+        Type: int
+        VarDecl: x
+          Number: 3
+      VarDeclList: VarDeclList
+        Type: int
+        VarDecl: y
+          Number: 4
+      VarDeclList: VarDeclList
+        Type: double
+        VarDecl: n
+          Call: Call
+            Identifier: inputDouble
+      VarDeclList: VarDeclList
+        Type: double
+        VarDecl: res
+          Call: Call
+            Identifier: sqrt
+            Identifier: n
       ExprStmt: ExprStmt
         Call: Call
-          Identifier: printInt
-          Call: Call
-            Identifier: pohuy
+          Identifier: printDouble
+          Binary: +
+            Binary: +
+              Identifier: res
+              Identifier: x
+            Identifier: y
+      ExprStmt: ExprStmt
+        Call: Call
+          Identifier: binxor
+          CommaExpr: ,
+            Number: 3
+            Number: 3
 
 === No syntax errors ===

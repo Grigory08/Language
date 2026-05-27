@@ -1,0 +1,8 @@
+C:\Users\popts\PlusPlusGovor\src\main.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\main.obj
+C:\Users\popts\PlusPlusGovor\src\lexer\Lexer.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\Lexer.obj
+C:\Users\popts\PlusPlusGovor\src\lexer\Trie.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\Trie.obj
+C:\Users\popts\PlusPlusGovor\src\parser\Parser.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\Parser.obj
+C:\Users\popts\PlusPlusGovor\src\parser\ASTPrinter.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\ASTPrinter.obj
+C:\Users\popts\PlusPlusGovor\src\semantics\SemanticAnalyzer.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\SemanticAnalyzer.obj
+C:\Users\popts\PlusPlusGovor\src\rpn\RPNGenerator.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\RPNGenerator.obj
+C:\Users\popts\PlusPlusGovor\src\vm\VM.cpp;C:\Users\popts\PlusPlusGovor\build\GovorPlusPlus.dir\Debug\VM.obj

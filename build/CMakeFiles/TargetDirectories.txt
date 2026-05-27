@@ -1,0 +1,3 @@
+C:/Users/popts/PlusPlusGovor/build/CMakeFiles/GovorPlusPlus.dir
+C:/Users/popts/PlusPlusGovor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/popts/PlusPlusGovor/build/CMakeFiles/ZERO_CHECK.dir

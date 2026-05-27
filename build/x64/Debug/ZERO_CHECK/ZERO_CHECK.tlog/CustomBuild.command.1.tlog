@@ -1,0 +1,10 @@
+^C:\USERS\POPTS\PLUSPLUSGOVOR\BUILD\CMAKEFILES\48FC91B3A00C0D59DC3C8241E8788106\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/popts/PlusPlusGovor -BC:/Users/popts/PlusPlusGovor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/popts/PlusPlusGovor/build/PetukhPlusPlus.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
