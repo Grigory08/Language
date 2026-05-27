@@ -1,5 +1,5 @@
-#ifndef PETUKH_VALUE_H
-#define PETUKH_VALUE_H
+#ifndef VALUE_H
+#define VALUE_H
 
 #include <cstdint>
 #include <sstream>
@@ -62,4 +62,4 @@ struct Value {
   }
 };
 
-#endif  // PETUKH_VALUE_H
+#endif 

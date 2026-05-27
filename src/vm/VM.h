@@ -1,5 +1,5 @@
-#ifndef PETUKH_VM_H
-#define PETUKH_VM_H
+#ifndef VM_H
+#define VM_H
 
 #include <map>
 #include <vector>
@@ -53,4 +53,4 @@ class VM {
   void CallBuiltin(const std::string &name);
 };
 
-#endif  // PETUKH_VM_H
+#endif  
